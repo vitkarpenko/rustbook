@@ -1,5 +1,5 @@
-mod guessing_game;
+mod fibonacci;
 
 fn main() {
-    guessing_game::guessing_game();
+    println!("{}", fibonacci::fib_match(5));
 }
